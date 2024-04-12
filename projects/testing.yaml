@@ -70,7 +70,7 @@ spec:
         app.kubernetes.io/managed-by: argocd-autopilot
         app.kubernetes.io/name: '{{ appName }}'
       annotations:
-        notifications.argoproj.io/subscribe.on-sync-succeeded.googlechat: om-argocd
+        notifications.argoproj.io/subscribe.on-sync-succeeded.test: ""
       name: testing-{{ userGivenName }}
       namespace: argocd
     spec:
